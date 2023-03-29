@@ -1,0 +1,119 @@
+body {
+  max-width: 1110px;
+  height: 582px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'League Spartan', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.header {
+  width: 1110px;
+  height: 245px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 60px;
+  background-image: url(/assets/images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+}
+.first {
+  display: column;
+  width: 445px;
+  height: 245px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  position: relative;
+  top: -20px;
+  color: rgba(81, 32, 81, 1);
+  font-size: 55px;
+}
+.subtitle {
+  position: relative;
+  top: -25px;
+  color: rgba(146, 123, 145, 1);
+  font-size: 15px;
+}
+.valoration {
+  width: 540px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.text {
+  width: 445px;
+  height: 56px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  color: rgba(81, 32, 81, 1);
+  background-color: rgba(247, 242, 247, 1);
+}
+.image {
+  width: 20px;
+  height: 20px;
+}
+.second {
+  position: relative;
+  left: 50px;
+}
+.third {
+  position: relative;
+  left: 100px;
+}
+.reviews {
+  width: 1110px;
+  height: 266px;
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(/assets/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+}
+.card {
+  width: 350px;
+  height: 234px;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: rgba(81, 32, 81, 1);
+}
+.photo {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 32px;
+  left: 30px;
+  border-radius: 60%;
+}
+.name {
+  position: relative;
+  top: -25px;
+  left: 90px;
+  color: white;
+}
+.subname {
+  position: relative;
+  top: -40px;
+  left: 90px;
+  color: rgba(238, 105, 164, 1);
+}
+.comment {
+  position: relative;
+  top: -20px;
+  margin: 0 30px;
+  color: white;
+}
+.irene {
+  position: relative;
+  top: 15px;
+}
+.anne {
+  position: relative;
+  top: 32px;
+}
